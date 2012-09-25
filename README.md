@@ -1,5 +1,5 @@
 # Cottonballs
-Cottonballse is your own mock, fluffy version of GCM for testing
+Cottonballs is your own mock, fluffy version of GCM for testing
 purposes, based on [node.js](http://nodejs.org).
 
 You would need this if you keep asking yourself the question 
