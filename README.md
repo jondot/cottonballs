@@ -71,7 +71,7 @@ possible.
 The code is _very_ hackable and you're welcome to submit
 pull requests if you think it'd be suitable.
 
-When in doubt just run `node cottonballs` to get a listing of your
+When in doubt just run `node cottonballs -h` to get a listing of your
 options.
 
 
