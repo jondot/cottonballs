@@ -8,6 +8,7 @@
   "bin":{ "cottonballs" : "cottonballs.js" },
   "dependencies": {
     "express": ">=1.0.0",
+    "body-parser": ">=1.8.2",
     "winston":">= 0.5.6",
     "commander": ">=0.3.2",
     "underscore": ">= 0.0.1"
