@@ -1,6 +1,7 @@
 #!/usr/bin/env coffee
 
 express = require 'express'
+bodyParser = require 'body-parser'
 fs = require 'fs'
 sys = require 'sys'
 program = require 'commander'
@@ -33,7 +34,9 @@ log.info("Starting with f:#{program.failureRatio} l:#{program.latency} x:#{progr
 
 
 app = express({key: privateKey, cert: certificate})
-app.use express.bodyParser()
+app.use bodyParser.urlencoded({extended: true})
+app.use bodyParser.json()
+
 
 error_types = ['NotRegistered', 'MismatchSenderId']
 
